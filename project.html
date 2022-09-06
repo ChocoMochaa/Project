@@ -5,11 +5,20 @@
     </title>
 
     <body>
+        <script>
+            let critRate = 5
+        </script>
         <h1>
             <button type = "button" onclick = 
-            "alert('hello')"> 
+            critRate ++> 
             click 
         </button>
+        <p>
+            <span id="crit"></span>
+            <script>
+                document.getElementById("crit").innerHTML = critRate;
+            </script>
+        </p>
         </h1>
     </body>
 </html>
